@@ -15,3 +15,8 @@
 <class 'bool'>
 <class 'NoneType'>
 """
+def my_type(element):
+    for element in my_list:
+        print(type(element))
+
+my_type(my_list)
